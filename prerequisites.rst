@@ -8,7 +8,7 @@ Prerequisites
 System requirements
 -------------------
 
-**Login and Pay with Amazon** Magento extension requires you to have a valid **Login and Pay with Amazon** account (refer to the :ref:`prerequisites-amazon-account-setup` if you don't have one yet) and a webserver running a Magento store instance with following conditions met:
+**Amazon Pay for Europe** Magento extension requires you to have a valid **Amazon Pay** account (refer to the :ref:`prerequisites-amazon-account-setup` if you don't have one yet) and a webserver running a Magento store instance with following conditions met:
 
 * Magento CE (1.5, 1.6, 1.7, 1.8, 1.9) or EE (1.11, 1.12, 1.13, 1.14)
 * cURL for PHP
@@ -19,7 +19,7 @@ System requirements
 
 .. _prerequisites-amazon-account-setup:
 
-**Login and Pay with Amazon** account setup
+**Amazon Pay and Login with Amazon** account setup
 -------------------------------------------
 
 
@@ -113,40 +113,26 @@ The AWS Access Key and the Secret Key among with the Merchant ID, will be presen
 Registering application for Login with Amazon service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Login and Pay with Amazon work together to provide a great buyer experience. To use **Login with Amazon** you have to register the application (Magento extension) that will be allowed to access buyers accounts through your Amazon Payments seller account. **Login with Amazon** configuration settings can be accessed through `Login with Amazon` Seller Central page.
+Login and Pay with Amazon work together to provide a great buyer experience. To use **Login with Amazon** you have to register the application (Magento extension) that will be allowed to access buyers accounts through your Amazon Payments seller account. **Login with Amazon** configuration settings can be accessed through `Integration Central` in Seller Central.
 
 .. image:: /images/prerequisites_screenshot_19.png
 
-In the App Console register a new application by clicking the `Register new Application` button. The `Register Your Application` form will appear.
+On Integration Central page, scroll down to the 'Manage client ID/store ID(s)' sectionOn and register a new application by clicking the 'Create new client ID/store ID` button at bottom.
 
 .. image:: /images/prerequisites_screenshot_20.png
 
-In the application details page, add basic details about your web site. These details will be used on your website and mobile apps (if applicable).
+On the `Create new client ID/store ID` form, add basic details about your web site. These details will be used on your website and mobile apps (if applicable).
+.. image:: /images/prerequisites_screenshot_21.png
 
-* `Name Shown to Users`. This is the name displayed on the consent screen when the users agree to share the information with your web site. This name applies to website versions of your application.
+* `Application or store name`. This is the name displayed on the consent screen when the users agree to share the information with your web site. This name applies to website versions of your application.
 * `Description`. A description of your web site for Login with Amazon users.
-* `Privacy Notice URL`. The Privacy URL is the location of your company privacy policy. It is also displayed on the consent screen. This link is displayed to users when they first login to your application (for example: `http://www.example.com/privacy.html`).
-* `Logo Image File`. This logo will represent your business or website on Amazon. The logo will be displayed as a 150x150 pixel image; if you upload a file of a different size, it will be scaled to fit.
+* `Upload a logo`. This logo will represent your business or website on Amazon. The logo will be displayed as a 150x150 pixel image; if you upload a file of a different size, it will be scaled to fit.
+* `Privacy policy URL`. The Privacy URL is the location of your company privacy policy. It is also displayed on the consent screen. This link is displayed to users when they first login to your application (for example: `http://www.example.com/privacy.html`).
+* `Allowed JavaScript origins`. The URL of your shop (for example: `http://www.example.com`). To add more than one origin (in case you are running domain based multi-store Magento installation and all stores are using the same Amazon Payments seller account), click `Add another URL`.
+* `Allowed return URLs`. The `Login with Amazon` authorization service redirects users to this URL when they complete login (for example: `http://www.example.com/amazonpayments/advanced_login/redirect/`).
 
-When you are finished, click `Save` to save your changes.
-
-
-Add a Website to your Application
-'''''''''''''''''''''''''''''''''
-
-* From the Application screen, click `Web Settings`. You will automatically be assigned values for Client ID, which identifies your website.
-
-.. image:: /images/prerequisites_screenshot_16.png
-
-* To add Allowed JavaScript Origins to your application, click `Edit`.
-
-An origin is the combination of protocol, your Magento shop domain name and port (for example: `https://www.example.com:8443`). Allowed origins must use the HTTPS protocol. If you are using a default port (443) you need only include the domain name of your shop (for example: `https://www.example.com`).
-
-Adding your domain here allows the SDK for JavaScript to communicate with your Magento shop directly during the login process. Web browsers normally block cross-origin communication between scripts unless the script specifically allows it.
-
-.. image:: /images/prerequisites_screenshot_17.png
-
-To add more than one origin (in case you are running domain based multi-store Magento installation and all stores are using the same Amazon Payments seller account), click `Add Another`.
+On top of the creativestyle plugin configuration page you can find the URLs that need to be added to the `Create new client ID/store ID` form mentioned before.
+.. image:: /images/prerequisites_screenshot_22.png
 
 .. note:: To use Login with Amazon with your Magento shop, you **MUST** specify an allowed JavaScript origin.
 
