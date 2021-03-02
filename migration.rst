@@ -1,6 +1,6 @@
 .. _migration_checkout_v2:
 
-Migration to Amazon Checkout v2 
+Migration to Amazon Pay Checkout v2 
 ===============================
 
 Amazon Payments provides a new payment service: Amazon Checkout v2, which resolves some of the issues introduced by PSD2 directive and brings some new features improving the buyer shopping experience. The following guide provides necessary information on how to migrate to the new Amazon Checkout v2 extension.  
