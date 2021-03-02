@@ -26,4 +26,5 @@ Proudly provided by:
    testing
    faq
    troubleshooting
+   migration
    changelog

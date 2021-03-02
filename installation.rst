@@ -4,6 +4,9 @@
 .. note::
    If you are looking for the information on how to migrate from the dropped Magento Connect / Marketplace please refer to :ref:`migrating-from-magento-connect` section.
 
+.. note::
+   If you are looking for the information on how to migrate to the new Amazon Checkout v2 please refer to :ref:`migration_checkout_v2` section.
+
 .. _installation:
 
 Installation
