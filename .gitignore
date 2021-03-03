@@ -12,3 +12,7 @@ nbproject
 _build
 _static
 _templates
+
+# Python files
+.python-version
+venv
