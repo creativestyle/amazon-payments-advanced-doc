@@ -1,5 +1,5 @@
 .. note::
-   This module is only maintained for already-live integrations. We recommend that you upgrade to our latest integration `here <http://doc.lpa.creativetest.de/migration.html>`_
+   This module is only maintained for already-live integrations. We recommend that you upgrade to our latest integration `here <http://doc.lpa.creativetest.de/migration.html>`_.
 
 Overview
 ========

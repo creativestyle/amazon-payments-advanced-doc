@@ -11,7 +11,7 @@ Proudly provided by:
    :align: center
 
 .. note::
-   This extension is under the active development even though Adobe dropped the support for Magento 1.x e-commerce platform (Jul 1st, 2020). Creativestyle will provide the necessary updates and support for this extension as long as this extension will be used by the active Amazon Pay merchants.
+   This module is only maintained for already-live integrations. We recommend that you upgrade to our latest integration `here <http://doc.lpa.creativetest.de/migration.html>`_.
 
 .. toctree::
    :maxdepth: 3
