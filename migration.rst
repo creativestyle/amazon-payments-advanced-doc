@@ -1,9 +1,30 @@
 .. _migration_checkout_v2:
 
-Migration to Amazon Pay Checkout v2 
+Migration to Amazon Pay (Checkout v2)
 ===============================
 
-Amazon Payments provides a new payment service: Amazon Checkout v2, which resolves some of the issues introduced by PSD2 directive and brings some new features improving the buyer shopping experience. The following guide provides necessary information on how to migrate to the new Amazon Checkout v2 extension.  
+Amazon Payments provides a new payment service: Amazon Pay (Checkout v2), which resolves some of the issues introduced by PSD2 directive and brings some new features improving the buyer shopping experience. The following guide provides necessary information on how to migrate to the new Amazon Pay (Checkout v2) extension.  
+
+About Amazon Pay
+----------------
+Amazon Pay is an end-to-end payment solution that gives hundreds of millions of active Amazon customers a familiar, fast, and secure way to complete their purchase through your online store. Shoppers can use the address and payment information already stored in their Amazon account to check out - avoiding account creation or the need to re-enter their billing and shipping information. The performance is continually optimised by technology, learnings, and best practises from Amazon.  
+
+Key Benefits
+~~~~~~~~~~~~
+* Reduce friction with a payment process that customers trust and can complete in minimal clicks
+* Proactively notify customers when their order is on its way or has arrived with Amazon Alexa
+* Rest assured with advanced fraud protection technology backed by Amazon
+* Easily integrate Amazon Pay into your online store
+
+Key Features
+~~~~~~~~~~~~
+* PSD2 compliant: Built-in support for strong customer authentication as required under PSD2
+* Delivery Notifications: Proactively alert customers on the arrival status of physical goods orders via Amazon Alexa
+* Multi-currency: Maintain the local currency experience across the shopping journey and help customers avoid currency conversion fees from their credit card issuer or bank
+* Amazon Sign-in: Reduce friction during account creation and sign-in by offering a fast and secure way for customers to authenticate through Amazon. Shoppers with an active Amazon account don’t need to login again
+* Automatic Decline Handling: Reduce lost sales with a consistent experience for customers to gracefully recover from a declined payment
+* Payment Protection Policy: Protection against fraud-related chargebacks (check `User Agreement <https://pay.amazon.eu/help/201212430>`_ for more details)
+* Amazon Pay A-to-z Guarantee: Increase customer confidence to complete purchase in your online store with extra assurance on the timeliness of delivery and order quality
 
 Pre-migration steps
 -------------------
@@ -34,14 +55,14 @@ After unpacking the downloaded installation package to your Magento root directo
 Activation
 ----------
 
-After the succesfull installation, you have to switch to the new payment service. If you have active previous Amazon Pay extension, the new one is disabled by default. To activate the new Amazon Checkout v2 go to :menuselection:`creativestyle --> Amazon Pay and Login with Amazon --> Settings` (or :menuselection:`System --> Configuration --> Amazon Payments` tab), on the top of the settings page you will find a control to switch between old Amazon Pay and the new one Amazon Checkout v2. Click :guilabel:`Amazon Checkout v2` button to activate the new payment service.
+After the succesfull installation, you have to switch to the new payment service. If you have active previous Amazon Pay extension, the new one is disabled by default. To activate the new Amazon Pay (Checkout v2) go to :menuselection:`creativestyle --> Amazon Pay and Login with Amazon --> Settings` (or :menuselection:`System --> Configuration --> Amazon Payments` tab), on the top of the settings page you will find a control to switch between old Amazon Pay and the new one Amazon Pay (Checkout v2). Click :guilabel:`Amazon Checkout v2` button to activate the new payment service.
 
 .. _v2_configuration:
 
 Configuration
 -------------
 
-Amazon Checkout v2 extension for Magento 1.x provides automated settings migration routine. If your Amazon Pay extension for Magento 1.x is configured properly, most of your settings will be migrated automatically once you refresh the cache after the new extension installation. The following settings will be migrated from the previous Amazon Pay extension:
+Amazon Pay (Checkout v2) extension for Magento 1.x provides automated settings migration routine. If your Amazon Pay extension for Magento 1.x is configured properly, most of your settings will be migrated automatically once you refresh the cache after the new extension installation. The following settings will be migrated from the previous Amazon Pay extension:
 
 * Payment region
 * Merchant ID
