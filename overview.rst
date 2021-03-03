@@ -1,5 +1,5 @@
-.. note::
-   This module is only maintained for already-live integrations. We recommend that you upgrade to our latest integration `here <http://doc.lpa.creativetest.de/migration.html>`_.
+.. important::
+   This extension is only maintained for already-live integrations. We recommend that you upgrade to our latest integration. See :ref:`migration_checkout_v2` for more details.
 
 Overview
 ========
@@ -35,7 +35,7 @@ Extension features
 Extension vendor
 ----------------
 
-This extension has been developed by creativestyle GmbH in cooperation with Amazon Payments Europe S.C.A.
+This extension has been developed by creativestyle GmbH, `a leading Magento agency <https://www.creativestyle.de/magento/>`_, in cooperation with Amazon Payments Europe S.C.A.
 
 Creativestyle is an award-winning, pioneering e-commerce agency with more than 15 years of experience. Since 2001, they have been developing expertise in the field of technology and software solutions. With a 50 person team of experts consisting of certified specialists in the fields of design, development and management of innovative projects, they can guarantee a full range of services from consulting and planning, through concept and design, to technical implementation and subsequent project support.
 
@@ -43,5 +43,5 @@ Creativestyle is an award-winning, pioneering e-commerce agency with more than 1
 | Erika-Mann-Straße 53
 | 80636 München
 | Germany
-| http://www.creativestyle.de
+| https://www.creativestyle.de
 |

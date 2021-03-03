@@ -1,5 +1,5 @@
-.. note::
-   This module is only maintained for already-live integrations. We recommend that you upgrade to our latest integration `here <http://doc.lpa.creativetest.de/migration.html>`_.
+.. important::
+   This extension is only maintained for already-live integrations. We recommend that you upgrade to our latest integration. See :ref:`migration_checkout_v2` for more details.
 
 .. _workflow:
 
