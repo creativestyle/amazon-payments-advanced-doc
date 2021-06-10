@@ -1,5 +1,5 @@
-.. important::
-   This extension is only maintained for already-live integrations. We recommend that you upgrade to our latest integration. See :ref:`migration_checkout_v2` for more details.
+.. warning::
+   This extension is not maintained anymore. Please use `Amazon Pay (Checkout v2) <https://amazon-pay.rtfd.io/>`_ instead.
 
 Troubleshooting
 ===============
@@ -47,9 +47,9 @@ Logs rotating
 All log files are rotated as soon as they exceed the size of 8 Megabytes, the old log file is renamed then to ``var/log/amazonpayments/apa_*.log.timestamp`` and a new empty file is created for storing the new log entries. The old log files are still accessible by direct access (FTP, SFTP or SSH) to ``var/log/amazonpayments`` folder on the server.
 
 
+.. _troubleshooting-contact-support:
+
 Contact support
 ---------------
 
-In case neither studying the FAQ nor the event logs reviewing resulted in solving your issue you can submit a support ticket on http://creativeticket.de site.
-
-.. note:: In the request ticket tell us please which extension (**Advanced Payment APIs**, **Checkout by Amazon**) does your issue concern and describe it very precisely. Some details regarding ecosystem the extension is working within (PHP version, Magento version, extension version, production or staging server) would be also very helpful. Following those advices will visibly speed up processing your request.
+If you haven't found a solution for your problem and need to contact us directly, please submit a support ticket on http://creativeticket.de site.

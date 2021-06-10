@@ -10,11 +10,14 @@ Proudly provided by:
 .. image:: /images/creativestyle_logo.png
    :align: center
 
-.. important::
-   This extension is only maintained for already-live integrations. We recommend that you upgrade to our latest integration. See :ref:`migration_checkout_v2` for more details.
+.. centered::
+   creativestyle is a leading e-commerce agency with offices in Germany and Poland. For more information, please visit https://www.creativestyle.de
+
+.. warning::
+   This extension is not maintained anymore. Please use `Amazon Pay (Checkout v2) <https://amazon-pay.rtfd.io/>`_ instead.
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
    overview
    prerequisites
@@ -26,5 +29,4 @@ Proudly provided by:
    testing
    faq
    troubleshooting
-   migration
    changelog

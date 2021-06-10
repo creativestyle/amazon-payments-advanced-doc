@@ -1,11 +1,5 @@
-.. important::
-   This extension is only maintained for already-live integrations. We recommend that you upgrade to our latest integration. See :ref:`migration_checkout_v2` for more details.
-
-.. note::
-   If you are looking for the information on how to migrate from the dropped Magento Connect / Marketplace please refer to :ref:`migrating-from-magento-connect` section.
-
-.. note::
-   If you are looking for the information on how to migrate to the new Amazon Checkout v2 please refer to :ref:`migration_checkout_v2` section.
+.. warning::
+   This extension is not maintained anymore. Please use `Amazon Pay (Checkout v2) <https://amazon-pay.rtfd.io/>`_ instead.
 
 .. _installation:
 
@@ -35,11 +29,7 @@ Installation via Magento Connect Manager
 
 .. image:: /images/1.7.2/installation_step_2.png
 
-* In the :guilabel:`Install New Extensions` section paste the following extension key:
-
-.. centered:: `http://connect.creativestyle.de/Creativestyle_AmazonPayments`
-
-and click :guilabel:`Install` button. Magento Connect Manager will validate the key and check the extension dependencies and will display a pre-installation summary. Click :guilabel:`Proceed` button to start the installation.
+* In the :guilabel:`Install New Extensions` section enter the extension key and click :guilabel:`Install` button. Magento Connect Manager will validate the key and check the extension dependencies and will display a pre-installation summary. Click :guilabel:`Proceed` button to start the installation.
 
 .. image:: /images/1.7.2/installation_step_3.png
 
@@ -52,10 +42,10 @@ and click :guilabel:`Install` button. Magento Connect Manager will validate the 
 Manual installation
 ~~~~~~~~~~~~~~~~~~~
 
-* Go to `Creativestyle Magento 1.x connect channel <https://connect.creativestyle.de/Creativestyle_AmazonPayments>`_ and download the recent installation package of the extension. Unpack the downloaded file to your Magento root directory.
+* :ref:`troubleshooting-contact-support` to obtain a copy of the installation package of this extension. Unpack the received file to your Magento root directory.
 
 .. note::
-   If you are using any VCS (git, svn, mercurial) for versioning your shop basecode, you can also commit the content of the downloaded file to the VCS repository and next deploy it to your shop.
+   If you are using any VCS (git, svn, mercurial) for versioning your shop basecode, you can also commit the content of the received file to the VCS repository and next deploy it to your shop.
 
 * Proceed to the :ref:`post-installation-steps`.
 
@@ -86,8 +76,6 @@ Pre-upgrade steps
 Migrating from Magento Connect / Marketplace
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. note:: **In a nutshell**: You have to uninstall the previous plugin version first. Then install the most recent version with a new extension key: `http://connect.creativestyle.de/Creativestyle_AmazonPayments`.
-
 * Go to :menuselection:`System --> Magento Connect --> Magento Connect Manager` and enter your admin credentials to get logged in.
 
 .. image:: /images/1.7.2/installation_step_1.png
@@ -95,7 +83,7 @@ Migrating from Magento Connect / Marketplace
 .. image:: /images/1.7.2/installation_step_2.png
 
 * On the list of the installed extensions please find `Creativestyle_AmazonPayments`, select :guilabel:`Uninstall` in the corresponding action dropdown list and click :guilabel:`Commit changes` button.
-* After the successful uninstallation from the previous source, install it from the `Creativestyle Magento 1.x connect channel <https://connect.creativestyle.de/Creativestyle_AmazonPayments>`_ as described in the :ref:`installation-magento-connect-manager` section.
+* After the successful uninstallation from the previous source, install it as described in the :ref:`installation-magento-connect-manager` section.
 
 
 Upgrade process

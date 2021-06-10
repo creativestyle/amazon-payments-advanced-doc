@@ -1,5 +1,5 @@
-.. important::
-   This extension is only maintained for already-live integrations. We recommend that you upgrade to our latest integration. See :ref:`migration_checkout_v2` for more details.
+.. warning::
+   This extension is not maintained anymore. Please use `Amazon Pay (Checkout v2) <https://amazon-pay.rtfd.io/>`_ instead.
 
 Overview
 ========
@@ -12,10 +12,7 @@ The extension is a pure payment solution. No item level is communicated to Amazo
 Getting the extension
 ---------------------
 
-You can install the extension either via Magento Connect Manager or manually, downloading the installation package from `Creativestyle Magento 1.x connect channel <https://connect.creativestyle.de/Creativestyle_AmazonPayments>`_.
-
-Refer to the :ref:`installation` section to get more details concerning installation procedure.
-
+This extension is not maintained anymore and isn't available for the public download. :ref:`troubleshooting-contact-support` in case you need to obtain the installation package of this extension.
 
 Extension features
 ------------------

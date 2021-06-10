@@ -105,7 +105,9 @@ html_theme = 'default'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#html_theme_options = {}
+html_theme_options = {
+    'navigation_depth': 2
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []
@@ -198,7 +200,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   ('index', 'amazon-pay-eu-uk-magento-extension.tex', u'Amazon Pay (EU and UK) - extension for Magento 1.x',
-   u'Marek Zabrowarny', 'manual'),
+   u'Marek Stefan', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -228,7 +230,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'amazon-pay-eu-uk-magento-extension', u'Amazon Pay - extension for Magento 1.x EU & UK',
-     [u'Marek Zabrowarny'], 1)
+     [u'Marek Stefan'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -242,7 +244,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'amazon-pay-eu-uk-magento-extension', u'Amazon Pay - extension for Magento 1.x EU & UK',
-   u'Marek Zabrowarny', 'AmazonPayMagentoExtension', 'One line description of project.',
+   u'Marek Stefan', 'AmazonPayMagentoExtension', 'One line description of project.',
    'Miscellaneous'),
 ]
 
